@@ -1,6 +1,6 @@
 import pymongo
-
-client = pymongo.MongoClient(f"mongodb+srv://archit:archit@cluster0.n4nbh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+#password removed for purpose
+client = pymongo.MongoClient(f"mongodb+srv://archit:<password>t@cluster0.n4nbh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.test
 data_collection = db.blog
 
